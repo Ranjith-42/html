@@ -1,0 +1,215 @@
+# Second-Hand Car Dealership
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second-Hand Car Dealership</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        .internal-box {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- Inline CSS -->
+    <h1 style="color: green;">Second-Hand Car Dealership</h1>
+</header>
+
+<div style="position: sticky; bottom:20px">
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#cars">Cars</a> |
+        <a href="#booking">Booking</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</div>
+
+<hr>
+
+<!-- HOME -->
+<section id="home">
+
+    <h2>Welcome</h2>
+
+    <div class="internal-box">
+        <p>Find quality second-hand cars and book your test drive easily.</p>
+    </div>
+
+    <input type="text" placeholder="Search Car">
+    <button>Search</button>
+
+    <h2>Featured Cars</h2>
+
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+         alt="Car 1"
+         width="335"
+         height="230">
+
+    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8"
+         alt="Car 2"
+         width="335"
+         height="230">
+
+    <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd"
+         alt="Car 3"
+         width="335"
+         height="230">
+
+</section>
+
+<hr>
+
+<!-- CARS -->
+<section id="cars">
+
+    <h2>Available Cars</h2>
+
+    <select>
+        <option>Maruti Suzuki Swift</option>
+        <option>Hyundai Creta</option>
+        <option>Tata Nexon</option>
+    </select>
+
+    <br><br>
+
+    <table border="1">
+
+        <tr>
+            <th>S.No</th>
+            <th>Car Name</th>
+            <th>Year</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Maruti Suzuki Swift</td>
+            <td>2022</td>
+            <td>₹6,50,000</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Hyundai Creta</td>
+            <td>2021</td>
+            <td>₹11,00,000</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Tata Nexon</td>
+            <td>2023</td>
+            <td>₹8,50,000</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<hr>
+
+<!-- BOOKING -->
+<section id="booking">
+
+    <h2>Test Drive Booking</h2>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" required>
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <br><br>
+
+        <label>Phone:</label>
+        <input type="tel">
+
+        <br><br>
+
+        <label>Test Drive Date:</label>
+        <input type="date">
+
+        <br><br>
+
+        <label>Select Car:</label>
+
+        <select>
+            <option>Maruti Suzuki Swift</option>
+            <option>Hyundai Creta</option>
+            <option>Tata Nexon</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Book Test Drive</button>
+
+        <button type="reset">Clear</button>
+
+    </form>
+
+</section>
+
+<hr>
+
+<!-- BOX MODEL -->
+<section id="boxmodel">
+
+    <h2>CSS Box Model</h2>
+
+    <div class="box">
+
+        <h3>Car Details Box</h3>
+
+        <p>This box contains information about the selected second-hand car.</p>
+
+    </div>
+
+</section>
+
+<hr>
+
+<!-- CONTACT -->
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Chennai, Tamil Nadu</p>
+
+    <p>Email: usedcars@gmail.com</p>
+
+    <p>Phone: +91 9876543210</p>
+
+</section>
+
+<hr>
+
+<footer>
+
+    <p>© 2026 Second-Hand Car Dealership</p>
+
+</footer>
+
+<h3 class="thank">Thank You!</h3>
+
+</body>
+</html>
